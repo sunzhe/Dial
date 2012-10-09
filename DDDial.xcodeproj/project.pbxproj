@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39CE7391623FD96007D7043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39CE7381623FD96007D7043 /* UIKit.framework */; };
+		A39CE73B1623FD96007D7043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39CE73A1623FD96007D7043 /* Foundation.framework */; };
+		A39CE73D1623FD96007D7043 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39CE73C1623FD96007D7043 /* CoreGraphics.framework */; };
+		A39CE7431623FD96007D7043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39CE7411623FD96007D7043 /* InfoPlist.strings */; };
+		A39CE7451623FD96007D7043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39CE7441623FD96007D7043 /* main.m */; };
+		A39CE7491623FD96007D7043 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39CE7481623FD96007D7043 /* AppDelegate.m */; };
+		A39CE74B1623FD96007D7043 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A39CE74A1623FD96007D7043 /* Default.png */; };
+		A39CE74D1623FD96007D7043 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A39CE74C1623FD96007D7043 /* Default@2x.png */; };
+		A39CE74F1623FD96007D7043 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A39CE74E1623FD96007D7043 /* Default-568h@2x.png */; };
+		A39CE7521623FD96007D7043 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39CE7511623FD96007D7043 /* ViewController.m */; };
+		A39CE7551623FD96007D7043 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39CE7531623FD96007D7043 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A39CE7341623FD96007D7043 /* DDDial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDDial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39CE7381623FD96007D7043 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A39CE73A1623FD96007D7043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A39CE73C1623FD96007D7043 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A39CE7401623FD96007D7043 /* DDDial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDDial-Info.plist"; sourceTree = "<group>"; };
+		A39CE7421623FD96007D7043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39CE7441623FD96007D7043 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A39CE7461623FD96007D7043 /* DDDial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDDial-Prefix.pch"; sourceTree = "<group>"; };
+		A39CE7471623FD96007D7043 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A39CE7481623FD96007D7043 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A39CE74A1623FD96007D7043 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A39CE74C1623FD96007D7043 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A39CE74E1623FD96007D7043 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A39CE7501623FD96007D7043 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A39CE7511623FD96007D7043 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A39CE7541623FD96007D7043 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39CE7311623FD96007D7043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39CE7391623FD96007D7043 /* UIKit.framework in Frameworks */,
+				A39CE73B1623FD96007D7043 /* Foundation.framework in Frameworks */,
+				A39CE73D1623FD96007D7043 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A39CE7291623FD96007D7043 = {
+			isa = PBXGroup;
+			children = (
+				A39CE73E1623FD96007D7043 /* DDDial */,
+				A39CE7371623FD96007D7043 /* Frameworks */,
+				A39CE7351623FD96007D7043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39CE7351623FD96007D7043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39CE7341623FD96007D7043 /* DDDial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39CE7371623FD96007D7043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A39CE7381623FD96007D7043 /* UIKit.framework */,
+				A39CE73A1623FD96007D7043 /* Foundation.framework */,
+				A39CE73C1623FD96007D7043 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39CE73E1623FD96007D7043 /* DDDial */ = {
+			isa = PBXGroup;
+			children = (
+				A39CE7471623FD96007D7043 /* AppDelegate.h */,
+				A39CE7481623FD96007D7043 /* AppDelegate.m */,
+				A39CE7501623FD96007D7043 /* ViewController.h */,
+				A39CE7511623FD96007D7043 /* ViewController.m */,
+				A39CE7531623FD96007D7043 /* ViewController.xib */,
+				A39CE73F1623FD96007D7043 /* Supporting Files */,
+			);
+			path = DDDial;
+			sourceTree = "<group>";
+		};
+		A39CE73F1623FD96007D7043 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39CE7401623FD96007D7043 /* DDDial-Info.plist */,
+				A39CE7411623FD96007D7043 /* InfoPlist.strings */,
+				A39CE7441623FD96007D7043 /* main.m */,
+				A39CE7461623FD96007D7043 /* DDDial-Prefix.pch */,
+				A39CE74A1623FD96007D7043 /* Default.png */,
+				A39CE74C1623FD96007D7043 /* Default@2x.png */,
+				A39CE74E1623FD96007D7043 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39CE7331623FD96007D7043 /* DDDial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39CE7581623FD96007D7043 /* Build configuration list for PBXNativeTarget "DDDial" */;
+			buildPhases = (
+				A39CE7301623FD96007D7043 /* Sources */,
+				A39CE7311623FD96007D7043 /* Frameworks */,
+				A39CE7321623FD96007D7043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDDial;
+			productName = DDDial;
+			productReference = A39CE7341623FD96007D7043 /* DDDial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39CE72B1623FD96007D7043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ddmap;
+			};
+			buildConfigurationList = A39CE72E1623FD96007D7043 /* Build configuration list for PBXProject "DDDial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A39CE7291623FD96007D7043;
+			productRefGroup = A39CE7351623FD96007D7043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39CE7331623FD96007D7043 /* DDDial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39CE7321623FD96007D7043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39CE7431623FD96007D7043 /* InfoPlist.strings in Resources */,
+				A39CE74B1623FD96007D7043 /* Default.png in Resources */,
+				A39CE74D1623FD96007D7043 /* Default@2x.png in Resources */,
+				A39CE74F1623FD96007D7043 /* Default-568h@2x.png in Resources */,
+				A39CE7551623FD96007D7043 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39CE7301623FD96007D7043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39CE7451623FD96007D7043 /* main.m in Sources */,
+				A39CE7491623FD96007D7043 /* AppDelegate.m in Sources */,
+				A39CE7521623FD96007D7043 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A39CE7411623FD96007D7043 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39CE7421623FD96007D7043 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A39CE7531623FD96007D7043 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39CE7541623FD96007D7043 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39CE7561623FD96007D7043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A39CE7571623FD96007D7043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39CE7591623FD96007D7043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDDial/DDDial-Prefix.pch";
+				INFOPLIST_FILE = "DDDial/DDDial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A39CE75A1623FD96007D7043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDDial/DDDial-Prefix.pch";
+				INFOPLIST_FILE = "DDDial/DDDial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39CE72E1623FD96007D7043 /* Build configuration list for PBXProject "DDDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39CE7561623FD96007D7043 /* Debug */,
+				A39CE7571623FD96007D7043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39CE7581623FD96007D7043 /* Build configuration list for PBXNativeTarget "DDDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39CE7591623FD96007D7043 /* Debug */,
+				A39CE75A1623FD96007D7043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39CE72B1623FD96007D7043 /* Project object */;
+}
