@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DDInitialDial.h
 //  DDDial
 //
 //  Created by ddmap on 12-10-9.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DDDial.h"
-@interface ViewController : UIViewController{
-    DDDial*dial;
-}
+
+@interface DDInitialDial : UIView
 
 @end
